@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{8C9C40B5-61E9-45B5-BAB7-9772F69592AB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AsyncAwait/Juice.cs">
+    <Files>
+      <File FileName="AsyncAwait/Program.cs" Line="1" Column="1" />
+      <File FileName="AsyncAwait/Coffee.cs" Line="12" Column="1" />
+      <File FileName="AsyncAwait/Eggs.cs" Line="15" Column="56" />
+      <File FileName="AsyncAwait/Bacon.cs" Line="19" Column="1" />
+      <File FileName="AsyncAwait/ToastBread.cs" Line="26" Column="10" />
+      <File FileName="AsyncAwait/Juice.cs" Line="6" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AsyncAwait" expanded="True">
+            <Node name="AsyncAwait" expanded="True">
+              <Node name="Juice.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AsyncAwait FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
