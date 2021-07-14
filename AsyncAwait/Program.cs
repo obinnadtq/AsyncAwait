@@ -11,9 +11,9 @@ namespace AsyncAwait
             coffee.PourCoffee();
             Console.WriteLine("coffee is ready");
 
-            Task<Egg> eggsTask = Egg.FryEggs(2);
-            Task<Bacon> baconTask = Bacon.FryBacon(2);
-            Task<Toast> toastTask = Toast.MakeToastWithButterAndJam(3);
+            Task<Egg> eggsTask = Egg.FryEggsAsync(2);
+            Task<Bacon> baconTask = Bacon.FryBaconAsync(2);
+            Task<Toast> toastTask = Toast.MakeToastWithButterAndJamAsync(3);
 
             await Task.WhenAll(eggsTask, baconTask, toastTask);
 

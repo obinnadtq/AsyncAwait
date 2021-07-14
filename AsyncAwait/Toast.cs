@@ -5,7 +5,7 @@ namespace AsyncAwait
 {
     public class Toast
     {
-       public static async Task<Toast> ToastBread(int slices)
+       public static async Task<Toast> ToastBreadAsync(int slices)
         {
             for(int slice = 0; slice < slices; slice++)
             {
@@ -28,9 +28,9 @@ namespace AsyncAwait
             Console.WriteLine("Applying butter to toast");
         }
 
-        public static async Task<Toast> MakeToastWithButterAndJam(int number)
+        public static async Task<Toast> MakeToastWithButterAndJamAsync(int number)
         {
-            var toast = await ToastBread(number);
+            var toast = await ToastBreadAsync(number);
             ApplyJam(toast);
             ApplyButter(toast);
 

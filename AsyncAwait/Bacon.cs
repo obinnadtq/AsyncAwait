@@ -5,7 +5,7 @@ namespace AsyncAwait
 {
     public class Bacon
     {
-        public static async Task<Bacon> FryBacon(int numberOfBacons)
+        public static async Task<Bacon> FryBaconAsync(int numberOfBacons)
         {
             Console.WriteLine($"Putting {numberOfBacons} bacons in the pan");
             Console.WriteLine("cooking first side of bacon");

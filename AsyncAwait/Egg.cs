@@ -5,7 +5,7 @@ namespace AsyncAwait
 {
     public class Egg
     {
-       public static async Task<Egg> FryEggs(int numberOfEggs)
+       public static async Task<Egg> FryEggsAsync(int numberOfEggs)
         {
             Console.WriteLine("Warming the egg pan...");
             await Task.Delay(3000);
